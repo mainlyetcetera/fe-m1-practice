@@ -35,14 +35,35 @@ In order to save your CodePen projects, you need to have an account. It's free -
 Open the `day1-exercises.md` file you created earlier, and answer these questions about the reading in that file:
 
 1.  On a website, what is the purpose of HTML code?
+  * The purpose of HTML code is to create the structure and content of a webpage.
 2.  What is the difference between an element and a tag?
+  * The tags are "wraps" that enclose and are part of the entire element.
+An element:
+```
+<h1>The Brown Bear</h1>
+```
+  * The tags are the <h1> and </h1> which wrap around the rest of the element.
+
 3.  Why do we use attributes in HTML elements?
+  * Attributes help us accomplish certain tasks, such as adding an image or video to our page.
+
 4.  Describe the purpose of the head, title, and body HTML elements.
+  * The body element is the entire body of the page. A heading allows you to create a specific-sized heading. The title element is similar to a heading in how it looks; however, it is specifically named Title and can be accessed as such.
 5.  In your browser (Chrome), how do you view the source of a website?
+  * The developer console, found under Styles.
 6.  List five different HTML elements and what they are used for. For example, `<p></p>` is a paragraph element, and it is used to represent a paragraph of text.
+Well, since you gave me one...
+  * *<p></p>* paragraph element, represents a paragraph of text
+  * *<h1></h1>* first heading element, creates the first type of heading (usually the largest)
+  * *<ul></ul>* unordered list element, creates a list with no numbered ordering
+  * *<ol></ol>* ordered list element, creates a list with numbered ordering
+  * *<li></li>* creates an item in a list, properly formatting for either ordered or unordered
 7.  What are empty elements?
+  * elements not seen user-side on the page
 8.  What is semantic markup?
+  * Semantic markup is the practice of keeping the content-based elements of the webpage completely separate from style. It is used in order to optimize the webpage experience for browsers and the like which interact with the page. It is done by using ideal, correct, and proper tags around all elements so that there is no confusion to a human reader seeing the html while the actual webpage style is completely handled by css. This **should** make the webpage experience seamless for the average human user and ideal for data interaction with non-human users.
 9.  What are three new semantic elements introduced in HTML 5? Use page 431 in the book to find more about these new elements.
+  * HTML introduced the header, footer, and nav elements.
 
 Go to [CodePen](https://codepen.io). Create a new "pen", and start to write some HTML code in CodePen using what you read from the Structure and Text chapters. The HTML should include:
 
